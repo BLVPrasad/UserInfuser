@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+
+
+.logo{
+	background-image: url('../images/cloudCaptive.png');
+	background-size: 50% 100%;
+	-webkit-background-size: 50% 100%;
+	-moz-background-size: 50% 100%;
+	background-color:#eee;
+	background-position:center center;
+	background-repeat : no-repeat;
+	border : none;
+	height : 100px;
+}
+
+.buttonCls{
+	background-image: url('../images/userInfuser_btn_bg.png');
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-color:#eee;
+	background-position:center;
+	background-repeat : no-repeat;
+	color : #FFF;
+	border : none;
+}
+
+
+.x-toolbar.small_title{
+	font-size:.6em;border-top:1px solid #bbb
+}
+
+.icon{
+	background-color:#eee;
+	background-position:center center;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+	margin-right:10px;
+	width:45px;
+	height:45px;
+	background-size:47px auto;	
+}
+
+.x-item-selected .list-item-title  
+{  
+    color:#ffffff;  
+}  
+.x-item-selected .list-item-desc  
+{  
+    color:#ffffff;  
+} 
+
+.x-list-item-body{
+	display:-webkit-box;
+	display:box;
+	-webkit-box-orient:horizontal;
+	box-orient:horizontal;
+	-webkit-box-align:center;
+	box-align:center
+}
+
+
+.x-list-item-body .name{
+	-webkit-box-flex:1;
+	box-flex:1;
+	font-weight:bold;
+	font-size:1.4em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden
+}
+.x-list-item-body .secondary{
+	display:block;
+	font-size:10px !important;
+	color:#d40e3f;
+	margin-left:.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+.x-list-item-body .tertiary{
+	font-weight:normal;color:#999
+}
+
+.successMsg {
+	-webkit-box-flex:1;
+	box-flex:1;
+	font-weight:bold;
+	font-size:1.0em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:block;
+	white-space:nowrap;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	border: 1px solid rgb(191,191,191);
+	padding : 10px;
+	margin : 10px;
+	margin-top:0px;
+	background-color: rgb(0,180,177);
+	color:rgb(0,0,255);	
+	text-align: center;
+	white-space: pre-wrap;
+}
+
+

@@ -1,0 +1,67 @@
+<!doctype html>
+<html manifest="gcmobile.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>User Infuser</title>
+
+    <link rel="stylesheet" href="CSS/sencha-touch.css" type="text/css">
+    <!--<link rel="stylesheet" href="CSS/android.css" type="text/css">
+    <link rel="stylesheet" href="CSS/apple.css" type="text/css">
+    --><link rel="stylesheet" href="CSS/app.css" type="text/css">     
+    
+    
+    <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+    
+    
+    <script type="text/javascript" src="JS/sencha-touch.js"></script> 
+    <script type="text/javascript" src="JS/index.js"></script>    
+    <script type="text/javascript" src="JS/login.js"></script>
+    <script type="text/javascript" src="JS/userInfuserList.js"></script>
+    
+    <!--    <script type="text/javascript" src="JS/homePage.js"></script>  -->
+    
+    <script type="text/javascript" src="JS/createUser.js"></script>
+    <script type="text/javascript" src="JS/givePoints.js"></script>
+    <script type="text/javascript" src="JS/createBadge.js"></script>
+    <script type="text/javascript" src="JS/userInfo.js"></script>
+    <script type="text/javascript" src="JS/userInformation.js"></script>
+    <script type="text/javascript" src="JS/userCreated.js"></script>
+    <script type="text/javascript" src="JS/pointsGiven.js"></script>
+    <script type="text/javascript" src="JS/badgeAssigned.js"></script>
+    <script type="text/javascript" src="JS/removeBadge.js"></script>
+    <script type="text/javascript" src="JS/badgeRemoved.js"></script>
+    
+    
+    <script type="text/javascript" src="JS/widget.js"></script>
+    <script type="text/javascript" src="JS/widgetsList.js"></script>
+
+    <script type="text/javascript" >
+    Parse.initialize("wIwOAMjHpd8a1NEv3ushq6y0OIFGw6urQVs1aOTp", "cGXgaLqgDSdWQPephIvii6hAipFC2Qv9bt18rAKf");
+    
+    var Ravindran = Parse.Object.extend("Ravindran");
+    var ravindran = new Ravindran();
+    alert("hi");
+    ravindran.save(null, {
+    	  success: function(ravindran) {
+    	    // Execute any logic that should take place after the object is saved.
+    	    alert('New object created with objectId: ' );
+    	  },
+    	  error: function(innovation, error) {
+    	    // Execute any logic that should take place if the save fails.
+    	    // error is a Parse.Error with an error code and description.
+    	    alert('Failed to create new object, with error code: ' + error.description);
+    	  }
+    	});
+
+</script>
+      
+   
+   
+
+    
+  
+</head>
+<body>
+</body>
+</html>
+ 

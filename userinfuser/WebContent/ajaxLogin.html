@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+$('#loginForm').submit(function (e) {
+	alert("hi");
+}
+	e.preventDefault();
+	var username = $(this).find('input[name="username"]').val();
+	var password = $(this).find('input[name="password"]').val();
+	...
+	$.ajax('https://examples.webscript.io/login', {
+		type: 'post',
+		data: { username: username, password: password },
+		statusCode: {
+			200: function () { ... },
+			403: function () { ... }
+		}
+
+
+
+
+		
+</script>
+
+</head>
+<body>
+
+
+<form name="loginForm" id = "loginForm" method="get">
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+
+<input type="submit" value="Submit">
+
+
+</form>
+
+
+
+
+</body>
+</html>
